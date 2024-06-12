@@ -1,0 +1,52 @@
+#number-list {
+    height: 20px;
+    width: 20px;
+    padding: 5px;
+}
+
+  #number-list li {
+    display: inline-block;
+    margin: 5px;
+    padding: auto;
+    color: black; 
+  }
+
+  #number-list li.prime {
+    color: red; 
+  }
+
+  #number-list li:nth-child(3n+2):not(.prime) {
+    color: blue;
+  }
+
+  #number-list li:nth-child(4n+3):not(.prime) {
+    color: green;
+  }
+
+  #number-list li:nth-child(5n+4):not(.prime) {
+    color: purple;
+  }
+
+  #number-list li:nth-child(6n+5):not(.prime) {
+    color: orange;
+  }
+
+  #number-list li:nth-child(7n+6):not(.prime) {
+    color: pink;
+  }
+
+  #number-list li:nth-child(8n+7):not(.prime) {
+    color: brown;
+  }
+
+  #number-list li:nth-child(9n+8):not(.prime) {
+    color: teal;
+  }
+
+  #number-list li:nth-child(10n+9):not(.prime) {
+    color: navy;
+  }
+
+  #number-list li:nth-child(11n+10):not(.prime) {
+    color: olive;
+  }
